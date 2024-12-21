@@ -1,0 +1,130 @@
+.footer{
+  background-color: #081130;
+  height: 1150px;
+  text-align: center;
+}
+.block {
+  position: absolute;
+  background-color: #ffffff;
+  padding: 20px;
+  width: 1770px;
+  height: 590px;
+  left: 254px;
+  margin: 233px auto;
+  }
+  
+  .booking {
+    font-family: 'Montserrat_bold';
+    font-size: 53.9px;
+    margin-top: 85px;
+  }
+  
+  .subt {
+    font-family: 'Montserrat_l';
+    font-size: 31.37px;
+    margin-top: 25px;
+  }
+  
+  .forma {
+    gap: 50px;
+    width: 568px;
+    height: 129px;
+    margin-top: 62px;
+    border-radius: 10px;
+    background-color: #F2F6FA;
+    border: none;
+    font-family: 'Montserrat_l';
+    font-size: 23px;
+    text-indent: 68px;
+  }
+
+  .button3{
+    width: 568px;
+    height: 129px;
+    margin-left: 34px;
+    margin-top: 62px;
+    border-radius: 10px;
+    background-color: #FED84C;
+    border: none;
+    font-family: 'Montserrat_l';
+    font-size: 27.5px;
+    transition: all 0.3s ease;
+  }
+
+  .button3:hover {
+    background-color: #2E363E;
+    color: #ffffff;
+    transform: scale(1.03);
+  }
+
+  .checkbox {
+    display: flex;
+    margin-top: 36px;
+    margin-left: 486px;
+  }
+
+  .checkbox input {
+    margin-right: 10px;
+    transform: scale(1.4);
+    cursor: pointer;
+  }
+  
+  .checkbox label {
+    font-family: 'Montserrat_l';
+    font-size: 16.9px;
+  }
+
+  .podv {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 912px;
+    margin-left: 695px;
+  }
+
+  .ogrn{
+    position: absolute;
+    margin-top: 989px;
+    margin-left: 803px;
+  }
+
+  .footer p{
+    font-family: 'Montserrat_l';
+    color: #ffffff85;
+    font-size: 17px;
+  }
+
+  .Rberry{
+    margin-top: -600px;
+    margin-left: 1690px;
+    transform: rotate(32deg);
+    width: 230px;
+    height: 230px
+  }
+
+  .Lfleaf{
+    filter: blur(7px);
+    margin-top: -220px;
+    margin-left: -150px;
+    transform: rotate(-95deg);
+    width: 160px;
+    height: 160px
+  }
+
+  .Lberry{
+    margin-left: -240px;
+    margin-top: 440px;
+    transform: rotate(-127deg);
+    width: 250px;
+    height: 250px
+  }
+
+  .Rtleaf{
+    filter: blur(7px);
+    margin-top: -220px;
+    margin-left: 1720px;
+    transform: rotate(72deg);
+    width: 220px;
+    height: 220px
+  }

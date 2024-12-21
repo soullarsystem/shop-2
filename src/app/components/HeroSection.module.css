@@ -1,0 +1,172 @@
+.hero {
+    background: url('/images/three_cakesbg.jpg') center / cover no-repeat;
+    color: white;
+    padding: 850px 0px;
+  }
+  
+  .container {
+    position: absolute;
+    top: 513px;
+    left: 240px;
+    width: 1000px;
+    height: 180px;
+    padding: 10px;
+    text-align: left;
+    font-size: 48px;
+    line-height: 1.25;
+  }
+  .container p{
+    position: relative;
+    top: 35px;
+    font-family: 'Montserrat_l';
+    font-size: 37px;
+    line-height: 9px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    padding: 55px 20px;
+    color: white;
+    border-bottom: 1px solid #8787871b;
+    position: fixed;
+    margin-top: -2px;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  .logo {
+    font-size: 26px;
+    font-family: 'Montserrat_sb';
+    margin-left: 238px;
+  }
+  
+  .contact {
+    display: flex;
+    font-family: 'Montserrat_l', sans-serif;
+    gap: 5px;
+    align-items: center;
+  }
+  
+  .location {
+    margin-right: 85px;
+    font-size: 19px;
+    width: 200px;
+  }
+  
+  .phone {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    font-size: 31px;
+    font-family: 'Montserrat_sb';
+    margin-right: 230px;
+  }
+
+  .workingHours {
+    opacity: 1;
+    margin-top: 1px;
+    font-size: 20px;
+    font-family: 'Montserrat_l';
+  }
+  
+  .button {
+    background-color: #FED84C;
+    color: rgb(0, 0, 0);
+    padding: 46px 63px;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+    font-family: 'Montserrat_l';
+    font-weight: 3;
+    position: absolute; 
+    top: 495px;
+    font-size: 29px;
+    transition: all 0.3s ease;
+  }
+
+  .button:hover {
+    background-color: #2E363E;
+    color: #ffffff;
+    transform: scale(1.03);
+  }
+
+  .taste {
+    background-color: #F2F6FA;
+    color: rgb(0, 0, 0);
+    padding: 15px 30px;
+    border-radius: 7px;
+    font-family: 'Montserrat_l', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    position: absolute;
+    top: 419px;
+    left: 251px;
+  }
+  .nine{
+    background-color: #00000090;
+    width: 200px;
+    position: absolute;
+    font-size: 23px;
+    font-family: 'Montserrat_l';
+    top: 1041px;
+    left: 699px;
+    border-radius: 9px;
+    line-height: 1.5;
+  }
+
+  .phoneIcon {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    margin-top: -20px;
+  }
+  .gpsIcon {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+    margin-top: -12px;
+  }
+
+  .leftImage,
+  .rightImage,
+  .botImage,
+  .hleafImage {
+    position: absolute;
+  }
+
+  .leftImage {
+    top: 360px;
+    left: -74px;
+    transform: rotate(-45deg);
+    width: 285px;
+    height: 285px;
+  }
+
+  .rightImage {
+    top: 235px;
+    right: -86px;
+    transform: rotate(30deg);
+    width: 265px;
+    height: 265px;
+  }
+
+  .botImage{
+    top: 1200px;
+    right: 170px;
+    transform: rotate(-150deg);
+    width: 280px;
+    height: 280px;
+  }
+
+  .hleafImage{
+    top: 1270px;
+    left: -60px;
+    transform: rotate(-155deg);
+    width: 410px;
+    height: 410px;
+  }
+  
